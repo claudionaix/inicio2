@@ -22,11 +22,11 @@ if opcao == 1:
 elif opcao == 2:
     quantidade = int(input("Quantos alunos deseja cadastrar? "))
     for i in range(1, quantidade + 1):
-         i += 1
+         
          print(f"=== Aluno {i}  ===")
          matricula = int(input("Mátricula: "))
          nome = str(input("Nome do aluno: "))
-         autor = str(input("Turma: "))
+         turma = str(input("Turma: "))
          
          print("=== Aluno cadastrado com sucesso ===")
    
@@ -51,6 +51,5 @@ elif opcao == 3:
 elif opcao == 4:
     print('Sair')
         
-else:
-      opcao >= 5  
+else: 
       acesso = print("Opção inválida")      
