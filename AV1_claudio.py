@@ -9,8 +9,8 @@ opcao = int(input("Digite a opção desejada. "))
 if opcao == 1:
 
     quantidade = int(input("Quantos livros deseja cadastrar? "))
-    for i in range(quantidade):
-         i += 1
+    for i in range(1, quantidade +1):
+        
          print(f"=== Livro {i}  ===")
          codigo = str(input("Código do livro: "))
          titulo = str(input("Título do livro: "))
@@ -21,7 +21,7 @@ if opcao == 1:
     
 elif opcao == 2:
     quantidade = int(input("Quantos alunos deseja cadastrar? "))
-    for i in range(quantidade):
+    for i in range(1, quantidade + 1):
          i += 1
          print(f"=== Aluno {i}  ===")
          matricula = int(input("Mátricula: "))
